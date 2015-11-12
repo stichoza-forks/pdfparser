@@ -331,7 +331,7 @@ class Object
                         if ($current_position_tm['x'] !== false) {
                             $delta = abs(floatval($x) - floatval($current_position_tm['x']));
                             if ($delta > 10) {
-                                $text .= " ";
+                                $text .= "@DIV@";
                             }
                         }
                         if ($current_position_tm['y'] !== false) {
